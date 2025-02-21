@@ -11,6 +11,7 @@ import { BrowserDetail } from './components/BrowserDetails';
 import { StudentInfo } from './components/StudenInfo';
 import { ProfileCard } from './components/ProfileCard';
 import { SignIn } from './components/SignIn';
+import "bootstrap/dist/css/bootstrap.css";
 
 
 
