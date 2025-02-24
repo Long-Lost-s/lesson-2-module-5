@@ -13,13 +13,15 @@ import { Calculator } from './components/lesson-3/Calculator';
 import { StudenInfo } from './components/lesson-3/StudenInfo';
 import { ConditionalRendering } from './components/lesson-3/ConditionalRendering';
 import { App3 } from './components/lesson-3/App3';
+import { ToDoList } from './components/lesson-3/ToDoList';
+import { StudentList } from './components/lesson-3/StudentList';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
-    <App3></App3>
+    <StudentList></StudentList>
   );
 
 
