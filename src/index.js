@@ -3,22 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import YourName from './components/YourName';
-import { ProductList } from './components/ProductList';
-import { ListOfFruit } from './components/ListOfFruit';
-import { Time } from './components/Time';
-import { BrowserDetail } from './components/BrowserDetails';
-import { StudentInfo } from './components/StudenInfo';
-import { ProfileCard } from './components/ProfileCard';
-import { SignIn } from './components/SignIn';
 import "bootstrap/dist/css/bootstrap.css";
+import { ProductList } from './components/lesson-2/ProductList';
+import { IncreDcre } from './components/lesson-3/IncreDecre';
+import { ChangeColor } from './components/lesson-3/ChangeColor';
+import { App1 } from './components/lesson-3/App1';
+import { App2 } from './components/lesson-3/App2';
+import { Calculator } from './components/lesson-3/Calculator';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
-    <SignIn></SignIn>
+    <Calculator></Calculator>
   );
 
 
