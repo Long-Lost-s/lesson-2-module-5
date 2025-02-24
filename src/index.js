@@ -10,13 +10,16 @@ import { ChangeColor } from './components/lesson-3/ChangeColor';
 import { App1 } from './components/lesson-3/App1';
 import { App2 } from './components/lesson-3/App2';
 import { Calculator } from './components/lesson-3/Calculator';
+import { StudenInfo } from './components/lesson-3/StudenInfo';
+import { ConditionalRendering } from './components/lesson-3/ConditionalRendering';
+import { App3 } from './components/lesson-3/App3';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
-    <Calculator></Calculator>
+    <App3></App3>
   );
 
 

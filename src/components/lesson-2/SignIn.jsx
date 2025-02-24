@@ -1,5 +1,5 @@
-export function SignIn () {
-    return <div className="container d-flex align-items-center text-center">
+export function SignIn() {
+  return <div className="container d-flex align-items-center text-center">
     <div className="form-signin">
       <form>
         <img className="mb-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" alt="" width="72" height="57" />

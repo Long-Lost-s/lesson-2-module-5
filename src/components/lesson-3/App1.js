@@ -2,15 +2,15 @@ import { Component } from "react";
 import { Hello } from "./Hello";
 
 export class App1 extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
-            display : true
+            display: true
         };
     }
 
     delete = () => {
-        this.setState({ display : false})
+        this.setState({ display: false })
     };
 
     render() {
@@ -19,7 +19,7 @@ export class App1 extends Component {
             comp = <Hello />
         }
         return (
-            <div style={{ textAlign: 'center'}}>
+            <div style={{ textAlign: 'center' }}>
                 {comp}
                 <button onClick={this.delete}>
                     Xóa Component

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-export function Alert({text}) {
+export function Alert({ text }) {
     return (
         <div>
             <h1>{text}</h1>
@@ -9,5 +9,5 @@ export function Alert({text}) {
 }
 
 Alert.propType = {
-    text : PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
 };

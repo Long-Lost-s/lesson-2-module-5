@@ -1,5 +1,5 @@
-export function ProfileCard () {
-    return <div className="container">
+export function ProfileCard() {
+  return <div className="container">
     <div className="card">
       <div className="card--header" />
       <img

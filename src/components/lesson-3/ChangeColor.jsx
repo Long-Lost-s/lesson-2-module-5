@@ -1,7 +1,7 @@
 import { Component } from "react";
 
 export class ChangeColor extends Component {
-    constructor(props) {
+  constructor(props) {
     super(props);
     this.state = {
       color: 'black'

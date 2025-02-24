@@ -40,7 +40,7 @@ export class Calculator extends Component {
 
     render() {
         return (
-            <div style={{ border: "1px solid black", padding: "20px", width: "250px" }}> 
+            <div style={{ border: "1px solid black", padding: "20px", width: "250px" }}>
                 <input
                     type="text"
                     name="number1"

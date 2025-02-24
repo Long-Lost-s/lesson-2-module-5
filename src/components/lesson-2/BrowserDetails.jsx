@@ -1,5 +1,5 @@
-export function BrowserDetail () {
+export function BrowserDetail() {
     return <>
-     <h4>Browser's details: {navigator.userAgent}</h4>
+        <h4>Browser's details: {navigator.userAgent}</h4>
     </>
 }
