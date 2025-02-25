@@ -15,13 +15,19 @@ import { ConditionalRendering } from './components/lesson-3/ConditionalRendering
 import { App3 } from './components/lesson-3/App3';
 import { ToDoList } from './components/lesson-3/ToDoList';
 import { StudentList } from './components/lesson-3/StudentList';
+import { Counter } from './components/lesson4/Bai1/Counter';
+import { Selector } from './components/lesson4/Bai2/Selector';
+import { MyClock } from './components/lesson4/Bai3/MyClock';
+import { SelectCar } from './components/lesson4/Bai4/SelectCar';
+import { Timer } from './components/lesson4/Bai5/Timer';
+import App4 from './components/lesson4/Bai6/App4';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
-    <StudentList></StudentList>
+    <App4></App4>
   );
 
 
